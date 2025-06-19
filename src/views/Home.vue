@@ -1,5 +1,5 @@
 <template>
-  <Header :cart-count="cart.length" @search="onSearch" @open-cart="openCartDrawer" />
+  <Header :cartCount="cart.length" @search="onSearch" @open-cart="openCartDrawer" />
   <HeroBanner class="mt-20"/>
   <div class="p-10 max-w-7xl mx-auto">
     <h3 class="text-purple-500 font-bold">Categories</h3>
@@ -18,18 +18,12 @@
         v-if="cartOpen"
         :cart="cart"
         @remove="removeFromCart"
+        @add="cartProductIncrease"
         @checkout="handleCheckout"
         @close="cartOpen = false"
         />
     <!-- ...existing components -->
     <FloatingCart :cart="cart" @open-cart="cartOpen = true" />
-    <CartDrawer
-        v-if="cartOpen"
-        :cart="cart"
-        @checkout="handleCheckout"
-        @remove="removeFromCart"
-        @close="cartOpen = false"
-        />
 
   </div>
   <TestimonialSlider />
@@ -84,6 +78,18 @@ function viewProduct(product) {
   showModal.value = true
 }
 
+function openCartDrawer() {
+  cartOpen.value = true
+  showCartIcon.value = false
+
+  // Auto-close after 5 seconds
+  setTimeout(() => {
+    cartOpen.value = false
+    showCartIcon.value = true
+  }, 5000)
+}
+
+
 function openCart() {
   cartOpen.value = true
   showCartIcon.value = false
@@ -98,6 +104,18 @@ function openCart() {
 function closeCart() {
   cartOpen.value = false
   showCartIcon.value = true
+}
+
+function cartProductIncrease(id) {
+  const index = cart.value.findIndex(i => i.id === id)
+  if (index !== -1) {
+    if (cart.value[index].qty > 1) {
+      console.log('Increment')
+      cart.value[index].qty++
+    } else {
+      cart.value.splice(index, 1)
+    }
+  }
 }
 
 function removeFromCart(id) {
@@ -119,6 +137,7 @@ const filtered = computed(() =>
     p.name.toLowerCase().includes(query.value.toLowerCase())
   )
 )
+
 
 function onSearch(q) { query.value = q }
 

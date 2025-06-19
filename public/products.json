@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Aqua Bloom",
-    "category": "Floral",
-    "price": 13500,
-    "image": "/images/aqua-bloom.jpg",
+    "name": "Saint Lauren Black Opium Floral Shock EDP",
+    "category": "Yves",
+    "price": 66000,
+    "image": "/images/saint_lauren.png",
     "gallery": [
       "/images/aqua-bloom.jpg",
       "/images/aqua-bloom-2.jpg",
@@ -17,53 +17,120 @@
     }
   },
   {
-    "id": 2,
-    "name": "Velvet Oud",
-    "category": "Oriental",
-    "price": 18500,
-    "image": "/images/velvet-oud.jpg",
+    "id": 1,
+    "name": "Saint Lauren Y La Nuit EDP",
+    "category": "Yves",
+    "price": 163000,
+    "image": "/images/saint_lauren_lanuit.png",
     "gallery": [
-      "/images/velvet-oud.jpg",
-      "/images/velvet-oud-2.jpg",
-      "/images/velvet-oud-3.jpg"
+        "/images/saint_lauren_lanuit.png",
+        "/images/saint_lauren_lanuit.png",
+        "/images/saint_lauren_lanuit.png"
     ],
     "notes": {
-      "top": "Saffron, Cinnamon",
-      "middle": "Oud, Rose",
-      "base": "Amber, Leather"
+        "top": "Bergamot, Pear",
+        "middle": "Rose, Jasmine",
+        "base": "Vanilla, Musk"
     }
   },
   {
-    "id": 3,
-    "name": "Citrus Glow",
-    "category": "Fresh",
-    "price": 9500,
-    "image": "/images/citrus-glow.jpg",
-    "gallery": [
-      "/images/citrus-glow.jpg",
-      "/images/citrus-glow-2.jpg"
-    ],
-    "notes": {
-      "top": "Orange, Lemon Zest",
-      "middle": "Mint, Neroli",
-      "base": "Cedarwood, Musk"
-    }
+      "id": 1,
+      "name": "Saint Lauren Y Men EDP",
+      "category": "Yves",
+      "price": 168500,
+      "image": "/images/saint_lauren_men.png",
+      "gallery": [
+          "/images/aqua-bloom.jpg",
+          "/images/aqua-bloom-2.jpg",
+          "/images/aqua-bloom-3.jpg"
+      ],
+      "notes": {
+          "top": "Bergamot, Pear",
+          "middle": "Rose, Jasmine",
+          "base": "Vanilla, Musk"
+      }
   },
   {
-    "id": 4,
-    "name": "Mystic Woods",
-    "category": "Woody",
-    "price": 15000,
-    "image": "/images/mystic-woods.jpg",
-    "gallery": [
-      "/images/mystic-woods.jpg",
-      "/images/mystic-woods-2.jpg"
-    ],
-    "notes": {
-      "top": "Black Pepper, Cardamom",
-      "middle": "Vetiver, Cedar",
-      "base": "Patchouli, Sandalwood"
-    }
+      "id": 1,
+      "name": "Saint Lauren M7 Oud Absolu EDT 80ml",
+      "category": "Yves",
+      "price": 168500,
+      "image": "/images/saint_lauren_m7.png",
+      "gallery": [
+          "/images/aqua-bloom.jpg",
+          "/images/aqua-bloom-2.jpg",
+          "/images/aqua-bloom-3.jpg"
+      ],
+      "notes": {
+          "top": "Bergamot, Pear",
+          "middle": "Rose, Jasmine",
+          "base": "Vanilla, Musk"
+      }
+  },
+  {
+      "id": 2,
+      "name": "Armaf Club Club De Nuit Women EDP 105ml",
+      "category": "Armaf",
+      "price": 66000,
+      "image": "https://cdn.shopify.com/s/files/1/0507/4177/2457/files/Screenshot_2025-03-11_at_14.56.25.png?v=1741701445",
+      "gallery": [
+          "https://cdn.shopify.com/s/files/1/0507/4177/2457/files/Screenshot_2025-03-11_at_14.56.25.png?v=1741701445",
+          "https://cdn.shopify.com/s/files/1/0507/4177/2457/files/Screenshot_2025-03-11_at_14.56.25.png?v=1741701445",
+          "https://cdn.shopify.com/s/files/1/0507/4177/2457/files/Screenshot_2025-03-11_at_14.56.25.png?v=1741701445"
+      ],
+      "notes": {
+          "top": "Saffron, Cinnamon",
+          "middle": "Oud, Rose",
+          "base": "Amber, Leather"
+      }
+  },
+  {
+      "id": 3,
+      "name": "Givenchy Gentleman Reserve Privee",
+      "category": "Fresh",
+      "price": 165000,
+      "image": "/images/givenchy_gentleman_reserve.png",
+      "gallery": [
+          "/images/citrus-glow.jpg",
+          "/images/citrus-glow-2.jpg"
+      ],
+      "notes": {
+          "top": "Orange, Lemon Zest",
+          "middle": "Mint, Neroli",
+          "base": "Cedarwood, Musk"
+      }
+  },
+  {
+      "id": 3,
+      "name": "Amouage Interlude Man EDP(New)",
+      "category": "Fresh",
+      "price": 238000,
+      "image": "/images/amouage_interlude_man.png",
+      "gallery": [
+          "/images/citrus-glow.jpg",
+          "/images/citrus-glow-2.jpg"
+      ],
+      "notes": {
+          "top": "Orange, Lemon Zest",
+          "middle": "Mint, Neroli",
+          "base": "Cedarwood, Musk"
+      }
+  },
+  {
+      "id": 4,
+      "name": "JIMMY CHOO Illicit Flower EDT 100ml",
+      "category": "Woody",
+      "price": 167500,
+      "image": "/images/jimmy_choo_illicit.png",
+      "gallery": [
+          "/images/mystic-woods.jpg",
+          "/images/mystic-woods-2.jpg"
+      ],
+      "notes": {
+          "top": "Black Pepper, Cardamom",
+          "middle": "Vetiver, Cedar",
+          "base": "Patchouli, Sandalwood"
+      }
   }
 ]
 

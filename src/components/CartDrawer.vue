@@ -5,7 +5,7 @@
     >
       <!-- Header -->
       <div class="flex items-center justify-between p-4 border-b">
-        <h2 class="text-xl font-bold">🛒 Your Cart</h2>
+        <h2 class="text-xl font-bold"><i class="ri-shopping-cart-line"></i> Your Cart</h2>
         <button
           @click="$emit('close')"
           class="text-gray-500 hover:text-red-600 text-2xl"
@@ -43,7 +43,7 @@
               >−</button>
               <span class="px-2 text-sm font-semibold">{{ item.qty }}</span>
               <button
-                @click="$emit('add', item)"
+                @click="$emit('add', item.id)"
                 class="px-2 py-0.5 text-sm bg-green-100 hover:bg-green-200 text-green-600 rounded"
                 title="Add one"
               >+</button>

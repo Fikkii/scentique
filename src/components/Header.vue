@@ -29,10 +29,10 @@
         <button @click="$emit('open-cart')" class="relative">
           <i class="ri-shopping-bag-3-line text-xl text-gray-700 hover:text-purple-600"></i>
           <span
-            v-if="cartCount > 0"
+            v-if="count > 0"
             class="absolute -top-1.5 -right-1.5 bg-purple-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full"
           >
-            {{ cartCount }}
+            {{ count }}
           </span>
         </button>
 
@@ -54,13 +54,20 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
-defineProps({
+const props = defineProps({
   cartCount: {
     type: Number,
     default: 0
   }
+})
+
+const count = ref(0)
+
+watch(() => props.cartCount, (newVal) => {
+  count.value = newVal
+  console.log(newVal)
 })
 
 const showMenu = ref(false)
