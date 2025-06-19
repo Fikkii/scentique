@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Aqua Bloom",
+    "category": "Floral",
+    "price": 13500,
+    "image": "/images/aqua-bloom.jpg",
+    "gallery": [
+      "/images/aqua-bloom.jpg",
+      "/images/aqua-bloom-2.jpg",
+      "/images/aqua-bloom-3.jpg"
+    ],
+    "notes": {
+      "top": "Bergamot, Pear",
+      "middle": "Rose, Jasmine",
+      "base": "Vanilla, Musk"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Velvet Oud",
+    "category": "Oriental",
+    "price": 18500,
+    "image": "/images/velvet-oud.jpg",
+    "gallery": [
+      "/images/velvet-oud.jpg",
+      "/images/velvet-oud-2.jpg",
+      "/images/velvet-oud-3.jpg"
+    ],
+    "notes": {
+      "top": "Saffron, Cinnamon",
+      "middle": "Oud, Rose",
+      "base": "Amber, Leather"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Citrus Glow",
+    "category": "Fresh",
+    "price": 9500,
+    "image": "/images/citrus-glow.jpg",
+    "gallery": [
+      "/images/citrus-glow.jpg",
+      "/images/citrus-glow-2.jpg"
+    ],
+    "notes": {
+      "top": "Orange, Lemon Zest",
+      "middle": "Mint, Neroli",
+      "base": "Cedarwood, Musk"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mystic Woods",
+    "category": "Woody",
+    "price": 15000,
+    "image": "/images/mystic-woods.jpg",
+    "gallery": [
+      "/images/mystic-woods.jpg",
+      "/images/mystic-woods-2.jpg"
+    ],
+    "notes": {
+      "top": "Black Pepper, Cardamom",
+      "middle": "Vetiver, Cedar",
+      "base": "Patchouli, Sandalwood"
+    }
+  }
+]
+
